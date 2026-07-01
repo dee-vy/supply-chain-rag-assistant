@@ -1,0 +1,15 @@
+Apple EMEIA Supply Chain Overview
+
+Key logistics hubs for EMEIA operations include Dublin, Amsterdam, and Dubai.
+Dublin serves as the primary distribution center for Western Europe.
+
+Common delay risks include port congestion at Rotterdam, customs clearance
+delays in Germany, and seasonal demand spikes in Q4.
+
+Inventory management follows a Just-In-Time model to minimise warehousing costs.
+Safety stock thresholds are reviewed quarterly based on demand forecasting models.
+
+Supplier lead times vary between 2-8 weeks depending on component type.
+Critical components such as display panels and chips have longer lead times of 6-8 weeks.
+
+EMEIA logistics partners include DHL, Kuehne+Nagel, and DB Schenker.
