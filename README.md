@@ -12,19 +12,19 @@ User Question → FastAPI → RAG Chain → ChromaDB (semantic search)
 ## Tech Stack
 
 - **LLM**: LLaMA 3.3 70B via Groq API
-- **Embeddings**: sentence-transformers (all-MiniLM-L6-v2) — runs locally
-- **Vector Store**: ChromaDB — local persistent vector database
+- **Embeddings**: sentence-transformers (all-MiniLM-L6-v2) - runs locally
+- **Vector Store**: ChromaDB - local persistent vector database
 - **RAG Framework**: LangChain
 - **API**: FastAPI + Uvicorn
 - **Language**: Python 3.9+
 
 ## Features
 
-- Domain-grounded answers — LLM only responds based on ingested documents
-- Hallucination prevention — returns "I don't have that information" 
+- Domain-grounded answers - LLM only responds based on ingested documents
+- Hallucination prevention - returns "I don't have that information" 
   for out-of-context questions
-- Semantic search — finds relevant context by meaning, not just keywords
-- REST API — production-ready endpoint with request validation
+- Semantic search - finds relevant context by meaning, not just keywords
+- REST API - production-ready endpoint with request validation
 - Auto-generated API docs via FastAPI at `/docs`
 
 ## Project Structure
@@ -34,8 +34,8 @@ rag_supply_chain/
 │   └── supply_chain.txt     # Domain knowledge base
 ├── chroma_db/               # Persisted vector store (auto-generated)
 ├── ingest.py                # Document ingestion and embedding pipeline
-├── rag_chain.py             # RAG logic — retrieval + LLM call
-├── controller.py            # FastAPI app — REST endpoints
+├── rag_chain.py             # RAG logic - retrieval + LLM call
+├── controller.py            # FastAPI app - REST endpoints
 └── README.md
 ```
 
